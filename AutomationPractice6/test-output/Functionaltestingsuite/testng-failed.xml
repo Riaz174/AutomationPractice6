@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functionaltestingsuite]" parallel="tests">
+  <test thread-count="5" name="RegressiontestingEdge(failed)" parallel="tests">
+    <parameter name="Wbsite" value="https://www.facebook.com"/>
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="Capstone.AutomationPractice6.Points">
+        <methods>
+          <include name="f"/>
+          <include name="afterMethod"/>
+          <include name="Browsers"/>
+        </methods>
+      </class> <!-- Capstone.AutomationPractice6.Points -->
+    </classes>
+  </test> <!-- RegressiontestingEdge(failed) -->
+  <test thread-count="5" name="Regressiontesting(failed)" parallel="tests">
+    <parameter name="Wbsite" value="https://www.facebook.com"/>
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Capstone.AutomationPractice6.Points">
+        <methods>
+          <include name="f"/>
+          <include name="afterMethod"/>
+          <include name="Browsers"/>
+        </methods>
+      </class> <!-- Capstone.AutomationPractice6.Points -->
+    </classes>
+  </test> <!-- Regressiontesting(failed) -->
+</suite> <!-- Failed suite [Functionaltestingsuite] -->
