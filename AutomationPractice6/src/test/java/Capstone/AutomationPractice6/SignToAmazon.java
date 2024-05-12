@@ -19,7 +19,7 @@ public class SignToAmazon extends Utilities {
 	  home.signinClick();
 	  Sign sign = new Sign(driver);
 	  sign.emailField();
-	  sign.ContinueField();
+	  sign.PasswordField();;
   }
   }
 

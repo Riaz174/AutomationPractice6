@@ -2,6 +2,7 @@ package Common;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import java.io.File;
@@ -17,18 +18,18 @@ import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterMethod;
 
 public class Utilities {
-	public WebDriver driver;
-	@Parameters({"browser", "Wbsite"})
-
-  @BeforeMethod
+	 public WebDriver driver;
+	
+	@Parameters({"browser","Wbsite"})
+	@BeforeMethod
    public void Browsers(String browsers, String Wbsite) {
 		  if(browsers.equalsIgnoreCase("Chrome")) {
-			 System.setProperty("webdriver.chrome.driver", "C:\\Users\\riaz_\\eclipse-workspace\\AutomationPractice6\\src\\Drivers\\chromedriver.exe");
+			 System.setProperty("webdriver.chrome.driver", "C:\\Users\\riaz_\\git\\repository13\\AutomationPractice6\\src\\Drivers\\chromedriver.exe");
 			  driver = new ChromeDriver();
 			  driver.navigate().to(Wbsite);
 			  driver.manage().window().maximize();
 		  }else if(browsers.equalsIgnoreCase("Edge")) {
-			  System.setProperty("webdriver.edge.driver", "C:\\Users\\riaz_\\eclipse-workspace\\AutomationPractice6\\src\\Drivers\\msedgedriver.exe");
+			  System.setProperty("webdriver.edge.driver", "C:\\Users\\riaz_\\git\\repository13\\AutomationPractice6\\src\\Drivers\\msedgedriver.exe");
 			  driver = new EdgeDriver();
 			  driver.navigate().to(Wbsite);
 			  driver.manage().window().maximize();
@@ -49,7 +50,9 @@ public class Utilities {
 	  String sd = is.toString().replace(" ","_").replace(":", "_");
 	  System.out.println(sd);
 	  File ks = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		 FileHandler.copy(ks, new File("C:\\Users\\riaz_\\eclipse-workspace\\AutomationPractice6\\Pictures\\"+sd+"pictureOfWebsite.jpg"));
+		 FileHandler.copy(ks, new File("C:\\Users\\riaz_\\git\\repository13\\AutomationPractice6\\Pictures\\"+sd+"pictureOfWebsite.jpg"));
+  }
 
-}
-}
+		}
+
+

@@ -7,13 +7,13 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Home {
 	public WebDriver driver;
-	@FindBy(id = "nav-link-accountList-nav-line-1") WebElement sign;
+	@FindBy(xpath = "//input[@placeholder='Email address or phone number']") WebElement sign;
 	public Home(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	public void signinClick() {
-		sign.click();
+		sign.sendKeys("jhon@gmail.com");
 		
 	}
 

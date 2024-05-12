@@ -15,7 +15,7 @@ public class Property extends Utilities {
   @Test
   public void f() throws Exception {
 	  Properties pro = new Properties();
-	  FileInputStream ds = new FileInputStream("C:\\Users\\riaz_\\eclipse-workspace\\AutomationPractice6\\Ahmar.properties");
+	  FileInputStream ds = new FileInputStream("C:\\Users\\riaz_\\git\\repository13\\AutomationPractice6\\Ahmar.properties");
 	  pro.load(ds);
 	  String name =pro.getProperty("Username");
 	  System.out.println(name);

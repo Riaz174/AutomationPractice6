@@ -30,7 +30,7 @@ public class Ilisteners extends Utilities implements ITestListener {
 		  System.out.println(sd);
 		  File ks = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			 try {
-				FileHandler.copy(ks, new File("C:\\Users\\riaz_\\eclipse-workspace\\AutomationPractice6\\Pictures\\Pass\\"+sd+"pictureOfWebsite.jpg"));
+				FileHandler.copy(ks, new File("C:\\Users\\riaz_\\git\\repository13\\AutomationPractice6\\Pictures\\Pass\\"+sd+"pictureOfWebsite.jpg"));
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -48,7 +48,7 @@ public class Ilisteners extends Utilities implements ITestListener {
 		  System.out.println(sd);
 		  File ks = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			 try {
-				FileHandler.copy(ks, new File("C:\\Users\\riaz_\\eclipse-workspace\\AutomationPractice6\\Pictures\\Fail\\"+sd+"pictureOfWebsite.jpg"));
+				FileHandler.copy(ks, new File("C:\\Users\\riaz_\\git\\repository13\\AutomationPractice6\\Pictures\\Fail\\"+sd+"pictureOfWebsite.jpg"));
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
