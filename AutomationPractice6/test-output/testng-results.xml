@@ -1,227 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Functionaltestingsuite" duration-ms="111794" started-at="2024-05-11T08:44:25 EDT" finished-at="2024-05-11T08:46:17 EDT">
+  <suite name="Functionaltestingsuite" duration-ms="104434" started-at="2024-05-12T02:24:17 EDT" finished-at="2024-05-12T02:26:02 EDT">
     <groups>
     </groups>
-    <test name="Regressiontesting" duration-ms="99851" started-at="2024-05-11T08:44:25 EDT" finished-at="2024-05-11T08:46:05 EDT">
-      <class name="Capstone.AutomationPractice6.TestOfVerification6">
-        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.TestOfVerification6@6121c9d6]" name="Browsers" is-config="true" duration-ms="2310" started-at="2024-05-11T08:45:28 EDT" finished-at="2024-05-11T08:45:30 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browsers -->
-        <test-method status="PASS" signature="signin()[pri:1, instance:Capstone.AutomationPractice6.TestOfVerification6@6121c9d6]" name="signin" duration-ms="358" started-at="2024-05-11T08:45:30 EDT" finished-at="2024-05-11T08:45:30 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signin -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.TestOfVerification6@6121c9d6]" name="afterMethod" is-config="true" duration-ms="3796" started-at="2024-05-11T08:45:49 EDT" finished-at="2024-05-11T08:45:53 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.TestOfVerification6@6121c9d6]" name="Browsers" is-config="true" duration-ms="2256" started-at="2024-05-11T08:45:53 EDT" finished-at="2024-05-11T08:45:55 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browsers -->
-        <test-method status="PASS" signature="f()[pri:2, instance:Capstone.AutomationPractice6.TestOfVerification6@6121c9d6]" name="f" duration-ms="6341" started-at="2024-05-11T08:45:55 EDT" depends-on-methods="Capstone.AutomationPractice6.TestOfVerification6.signin" finished-at="2024-05-11T08:46:01 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.TestOfVerification6@6121c9d6]" name="afterMethod" is-config="true" duration-ms="3799" started-at="2024-05-11T08:46:02 EDT" finished-at="2024-05-11T08:46:05 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- Capstone.AutomationPractice6.TestOfVerification6 -->
-      <class name="Capstone.AutomationPractice6.Points">
-        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="Browsers" is-config="true" duration-ms="2485" started-at="2024-05-11T08:44:33 EDT" finished-at="2024-05-11T08:44:35 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browsers -->
-        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="f" duration-ms="292" started-at="2024-05-11T08:44:35 EDT" data-provider="dp" finished-at="2024-05-11T08:44:36 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ali]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abcdef]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="afterMethod" is-config="true" duration-ms="3758" started-at="2024-05-11T08:44:48 EDT" finished-at="2024-05-11T08:44:52 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="Browsers" is-config="true" duration-ms="2241" started-at="2024-05-11T08:44:52 EDT" finished-at="2024-05-11T08:44:54 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browsers -->
-        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="f" duration-ms="247" started-at="2024-05-11T08:44:54 EDT" data-provider="dp" finished-at="2024-05-11T08:44:54 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Saleem]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ghijkl]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="afterMethod" is-config="true" duration-ms="3694" started-at="2024-05-11T08:44:57 EDT" finished-at="2024-05-11T08:45:00 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="Browsers" is-config="true" duration-ms="2318" started-at="2024-05-11T08:45:00 EDT" finished-at="2024-05-11T08:45:03 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browsers -->
-        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="f" duration-ms="258" started-at="2024-05-11T08:45:03 EDT" data-provider="dp" finished-at="2024-05-11T08:45:03 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Rabia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[mnopqrs]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="afterMethod" is-config="true" duration-ms="3751" started-at="2024-05-11T08:45:18 EDT" finished-at="2024-05-11T08:45:22 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- Capstone.AutomationPractice6.Points -->
-      <class name="Capstone.AutomationPractice6.SignToAmazon">
-        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.SignToAmazon@3e57cd70]" name="Browsers" is-config="true" duration-ms="3124" started-at="2024-05-11T08:44:26 EDT" finished-at="2024-05-11T08:44:29 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browsers -->
-        <test-method status="PASS" signature="f()[pri:0, instance:Capstone.AutomationPractice6.SignToAmazon@3e57cd70]" name="f" duration-ms="378" started-at="2024-05-11T08:44:29 EDT" finished-at="2024-05-11T08:44:29 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.SignToAmazon@3e57cd70]" name="afterMethod" is-config="true" duration-ms="3719" started-at="2024-05-11T08:44:29 EDT" finished-at="2024-05-11T08:44:33 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- Capstone.AutomationPractice6.SignToAmazon -->
+    <test name="RegressiontestingEdge" duration-ms="7874" started-at="2024-05-12T02:24:17 EDT" finished-at="2024-05-12T02:24:25 EDT">
       <class name="Capstone.AutomationPractice6.Property">
-        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Property@4eb7f003]" name="Browsers" is-config="true" duration-ms="2328" started-at="2024-05-11T08:45:22 EDT" finished-at="2024-05-11T08:45:24 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browsers -->
-        <test-method status="PASS" signature="f()[pri:0, instance:Capstone.AutomationPractice6.Property@4eb7f003]" name="f" duration-ms="19" started-at="2024-05-11T08:45:24 EDT" finished-at="2024-05-11T08:45:24 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.Property@4eb7f003]" name="afterMethod" is-config="true" duration-ms="3678" started-at="2024-05-11T08:45:24 EDT" finished-at="2024-05-11T08:45:28 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- Capstone.AutomationPractice6.Property -->
-    </test> <!-- Regressiontesting -->
-    <test name="RegressiontestingEdge" duration-ms="111794" started-at="2024-05-11T08:44:25 EDT" finished-at="2024-05-11T08:46:17 EDT">
-      <class name="Capstone.AutomationPractice6.TestOfVerification6">
-        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.TestOfVerification6@22eeefeb]" name="Browsers" is-config="true" duration-ms="2844" started-at="2024-05-11T08:45:35 EDT" finished-at="2024-05-11T08:45:38 EDT">
+        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Property@2a70a3d8]" name="Browsers" is-config="true" duration-ms="3675" started-at="2024-05-12T02:24:17 EDT" finished-at="2024-05-12T02:24:21 EDT">
           <params>
             <param index="0">
               <value>
@@ -237,201 +23,229 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browsers -->
-        <test-method status="PASS" signature="signin()[pri:1, instance:Capstone.AutomationPractice6.TestOfVerification6@22eeefeb]" name="signin" duration-ms="270" started-at="2024-05-11T08:45:38 EDT" finished-at="2024-05-11T08:45:38 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signin -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.TestOfVerification6@22eeefeb]" name="afterMethod" is-config="true" duration-ms="3847" started-at="2024-05-11T08:46:00 EDT" finished-at="2024-05-11T08:46:04 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.TestOfVerification6@22eeefeb]" name="Browsers" is-config="true" duration-ms="2937" started-at="2024-05-11T08:46:04 EDT" finished-at="2024-05-11T08:46:07 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browsers -->
-        <test-method status="PASS" signature="f()[pri:2, instance:Capstone.AutomationPractice6.TestOfVerification6@22eeefeb]" name="f" duration-ms="6394" started-at="2024-05-11T08:46:07 EDT" depends-on-methods="Capstone.AutomationPractice6.TestOfVerification6.signin" finished-at="2024-05-11T08:46:13 EDT">
+        <test-method status="PASS" signature="f()[pri:0, instance:Capstone.AutomationPractice6.Property@2a70a3d8]" name="f" duration-ms="62" started-at="2024-05-12T02:24:21 EDT" finished-at="2024-05-12T02:24:21 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.TestOfVerification6@22eeefeb]" name="afterMethod" is-config="true" duration-ms="3860" started-at="2024-05-11T08:46:13 EDT" finished-at="2024-05-11T08:46:17 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- Capstone.AutomationPractice6.TestOfVerification6 -->
-      <class name="Capstone.AutomationPractice6.Points">
-        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@17d0685f]" name="Browsers" is-config="true" duration-ms="2952" started-at="2024-05-11T08:44:34 EDT" finished-at="2024-05-11T08:44:37 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browsers -->
-        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@17d0685f]" name="f" duration-ms="358" started-at="2024-05-11T08:44:37 EDT" data-provider="dp" finished-at="2024-05-11T08:44:37 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ali]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abcdef]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.Points@17d0685f]" name="afterMethod" is-config="true" duration-ms="3783" started-at="2024-05-11T08:44:53 EDT" finished-at="2024-05-11T08:44:57 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@17d0685f]" name="Browsers" is-config="true" duration-ms="2835" started-at="2024-05-11T08:44:57 EDT" finished-at="2024-05-11T08:44:59 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browsers -->
-        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@17d0685f]" name="f" duration-ms="366" started-at="2024-05-11T08:44:59 EDT" data-provider="dp" finished-at="2024-05-11T08:45:00 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Saleem]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ghijkl]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.Points@17d0685f]" name="afterMethod" is-config="true" duration-ms="3808" started-at="2024-05-11T08:45:02 EDT" finished-at="2024-05-11T08:45:06 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@17d0685f]" name="Browsers" is-config="true" duration-ms="2837" started-at="2024-05-11T08:45:06 EDT" finished-at="2024-05-11T08:45:09 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browsers -->
-        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@17d0685f]" name="f" duration-ms="287" started-at="2024-05-11T08:45:09 EDT" data-provider="dp" finished-at="2024-05-11T08:45:09 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Rabia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[mnopqrs]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.Points@17d0685f]" name="afterMethod" is-config="true" duration-ms="3789" started-at="2024-05-11T08:45:24 EDT" finished-at="2024-05-11T08:45:28 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- Capstone.AutomationPractice6.Points -->
-      <class name="Capstone.AutomationPractice6.SignToAmazon">
-        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.SignToAmazon@2a70a3d8]" name="Browsers" is-config="true" duration-ms="3974" started-at="2024-05-11T08:44:26 EDT" finished-at="2024-05-11T08:44:29 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browsers -->
-        <test-method status="PASS" signature="f()[pri:0, instance:Capstone.AutomationPractice6.SignToAmazon@2a70a3d8]" name="f" duration-ms="246" started-at="2024-05-11T08:44:29 EDT" finished-at="2024-05-11T08:44:30 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.SignToAmazon@2a70a3d8]" name="afterMethod" is-config="true" duration-ms="3887" started-at="2024-05-11T08:44:30 EDT" finished-at="2024-05-11T08:44:34 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- Capstone.AutomationPractice6.SignToAmazon -->
-      <class name="Capstone.AutomationPractice6.Property">
-        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Property@3891771e]" name="Browsers" is-config="true" duration-ms="3372" started-at="2024-05-11T08:45:28 EDT" finished-at="2024-05-11T08:45:31 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browsers -->
-        <test-method status="PASS" signature="f()[pri:0, instance:Capstone.AutomationPractice6.Property@3891771e]" name="f" duration-ms="29" started-at="2024-05-11T08:45:31 EDT" finished-at="2024-05-11T08:45:31 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.Property@3891771e]" name="afterMethod" is-config="true" duration-ms="3825" started-at="2024-05-11T08:45:31 EDT" finished-at="2024-05-11T08:45:35 EDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.Property@2a70a3d8]" name="afterMethod" is-config="true" duration-ms="3957" started-at="2024-05-12T02:24:21 EDT" finished-at="2024-05-12T02:24:25 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- Capstone.AutomationPractice6.Property -->
     </test> <!-- RegressiontestingEdge -->
+    <test name="Regressiontesting" duration-ms="104434" started-at="2024-05-12T02:24:17 EDT" finished-at="2024-05-12T02:26:02 EDT">
+      <class name="Capstone.AutomationPractice6.TestOfVerification6">
+        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.TestOfVerification6@6121c9d6]" name="Browsers" is-config="true" duration-ms="2424" started-at="2024-05-12T02:25:21 EDT" finished-at="2024-05-12T02:25:24 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers -->
+        <test-method status="PASS" signature="signin()[pri:1, instance:Capstone.AutomationPractice6.TestOfVerification6@6121c9d6]" name="signin" duration-ms="380" started-at="2024-05-12T02:25:24 EDT" finished-at="2024-05-12T02:25:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.TestOfVerification6@6121c9d6]" name="afterMethod" is-config="true" duration-ms="4025" started-at="2024-05-12T02:25:45 EDT" finished-at="2024-05-12T02:25:49 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.TestOfVerification6@6121c9d6]" name="Browsers" is-config="true" duration-ms="2358" started-at="2024-05-12T02:25:49 EDT" finished-at="2024-05-12T02:25:51 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers -->
+        <test-method status="PASS" signature="f()[pri:2, instance:Capstone.AutomationPractice6.TestOfVerification6@6121c9d6]" name="f" duration-ms="6512" started-at="2024-05-12T02:25:51 EDT" depends-on-methods="Capstone.AutomationPractice6.TestOfVerification6.signin" finished-at="2024-05-12T02:25:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.TestOfVerification6@6121c9d6]" name="afterMethod" is-config="true" duration-ms="3873" started-at="2024-05-12T02:25:58 EDT" finished-at="2024-05-12T02:26:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Capstone.AutomationPractice6.TestOfVerification6 -->
+      <class name="Capstone.AutomationPractice6.Points">
+        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="Browsers" is-config="true" duration-ms="2364" started-at="2024-05-12T02:24:25 EDT" finished-at="2024-05-12T02:24:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers -->
+        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="f" duration-ms="391" started-at="2024-05-12T02:24:28 EDT" data-provider="dp" finished-at="2024-05-12T02:24:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="afterMethod" is-config="true" duration-ms="3979" started-at="2024-05-12T02:24:39 EDT" finished-at="2024-05-12T02:24:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="Browsers" is-config="true" duration-ms="2380" started-at="2024-05-12T02:24:43 EDT" finished-at="2024-05-12T02:24:45 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers -->
+        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="f" duration-ms="382" started-at="2024-05-12T02:24:45 EDT" data-provider="dp" finished-at="2024-05-12T02:24:45 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saleem]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ghijkl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="afterMethod" is-config="true" duration-ms="3879" started-at="2024-05-12T02:24:48 EDT" finished-at="2024-05-12T02:24:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="Browsers" is-config="true" duration-ms="2350" started-at="2024-05-12T02:24:52 EDT" finished-at="2024-05-12T02:24:54 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers -->
+        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="f" duration-ms="425" started-at="2024-05-12T02:24:54 EDT" data-provider="dp" finished-at="2024-05-12T02:24:54 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rabia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mnopqrs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.Points@87f383f]" name="afterMethod" is-config="true" duration-ms="3992" started-at="2024-05-12T02:25:11 EDT" finished-at="2024-05-12T02:25:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Capstone.AutomationPractice6.Points -->
+      <class name="Capstone.AutomationPractice6.Property">
+        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.Property@4eb7f003]" name="Browsers" is-config="true" duration-ms="2408" started-at="2024-05-12T02:25:15 EDT" finished-at="2024-05-12T02:25:17 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Capstone.AutomationPractice6.Property@4eb7f003]" name="f" duration-ms="48" started-at="2024-05-12T02:25:17 EDT" finished-at="2024-05-12T02:25:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.Property@4eb7f003]" name="afterMethod" is-config="true" duration-ms="3754" started-at="2024-05-12T02:25:17 EDT" finished-at="2024-05-12T02:25:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Capstone.AutomationPractice6.Property -->
+      <class name="Capstone.AutomationPractice6.SignToAmazon">
+        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Capstone.AutomationPractice6.SignToAmazon@3e57cd70]" name="Browsers" is-config="true" duration-ms="3329" started-at="2024-05-12T02:24:17 EDT" finished-at="2024-05-12T02:24:21 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Capstone.AutomationPractice6.SignToAmazon@3e57cd70]" name="f" duration-ms="641" started-at="2024-05-12T02:24:21 EDT" finished-at="2024-05-12T02:24:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Capstone.AutomationPractice6.SignToAmazon@3e57cd70]" name="afterMethod" is-config="true" duration-ms="3712" started-at="2024-05-12T02:24:22 EDT" finished-at="2024-05-12T02:24:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Capstone.AutomationPractice6.SignToAmazon -->
+    </test> <!-- Regressiontesting -->
   </suite> <!-- Functionaltestingsuite -->
 </testng-results>

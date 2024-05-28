@@ -44,10 +44,10 @@ public class TestOfVerification6 extends Utilities {
     
   
   @Test(priority = 1)
-  public void signin(String n, String s) {
+  public void signin() {
 	  HomeOfFacebook6 home = new HomeOfFacebook6(driver);
-	  home.UserName(n);
-	  home.Password(s);
+	  home.UserName("id");
+	  home.Password("id");
 	  home.login();
   
 	  }

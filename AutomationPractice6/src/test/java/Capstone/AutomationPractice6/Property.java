@@ -13,7 +13,7 @@ import Common.Utilities;
 
 public class Property extends Utilities {
   @Test
-  public void f() throws Exception {
+  public void f() throws IOException {
 	  Properties pro = new Properties();
 	  FileInputStream ds = new FileInputStream("C:\\Users\\riaz_\\git\\repository13\\AutomationPractice6\\Ahmar.properties");
 	  pro.load(ds);
