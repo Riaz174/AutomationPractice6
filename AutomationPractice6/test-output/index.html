@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Functionaltestingsuite">
-              <span class="suite-name border-passed">Functionaltestingsuite</span>
+              <span class="suite-name border-skipped">Functionaltestingsuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">2 methods,  1 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Functionaltestingsuite" class="hide-methods skipped suite-Functionaltestingsuite"> (hide)</a> <!-- hide-methods skipped suite-Functionaltestingsuite -->
+                      <a href="#" panel-name="suite-Functionaltestingsuite" class="show-methods skipped suite-Functionaltestingsuite"> (show)</a> <!-- show-methods skipped suite-Functionaltestingsuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Functionaltestingsuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functionaltestingsuite" title="Capstone.AutomationPractice6.Property" hash-for-method="f">f</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Functionaltestingsuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,41 +119,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Functionaltestingsuite" title="Capstone.AutomationPractice6.Property" hash-for-method="f">f</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Functionaltestingsuite" title="Capstone.AutomationPractice6.SignToAmazon" hash-for-method="f">f</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Functionaltestingsuite" title="Capstone.AutomationPractice6.Property" hash-for-method="f">f</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Functionaltestingsuite" title="Capstone.AutomationPractice6.TestOfVerification6" hash-for-method="f">f</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Functionaltestingsuite" title="Capstone.AutomationPractice6.Points" hash-for-method="f(Ali, abcdef)">f(Ali, abcdef)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Functionaltestingsuite" title="Capstone.AutomationPractice6.Points" hash-for-method="f(Saleem, ghijkl)">f(Saleem, ghijkl)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Functionaltestingsuite" title="Capstone.AutomationPractice6.Points" hash-for-method="f(Rabia, mnopqrs)">f(Rabia, mnopqrs)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Functionaltestingsuite" title="Capstone.AutomationPractice6.TestOfVerification6" hash-for-method="signin">signin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Functionaltestingsuite -->
@@ -154,6 +133,79 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Functionaltestingsuite" class="panel Functionaltestingsuite">
+          <div class="suite-Functionaltestingsuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Capstone.AutomationPractice6.Property</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f">
+                  </a> <!-- f -->
+                  <span class="method-name">f</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 124
+Current browser version is 126.0.2592.87 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RIAZ&apos;, ip: &apos;192.168.18.29&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
+Driver info: driver.version: EdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF65C72D8E2+35890]
+	Microsoft::Applications::Events::FromJSON [0x00007FF65C6EACC2+1330002]
+	Microsoft::Applications::Events::ILogManager::operator= [0x00007FF65C4DE137+5095]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00007FF65C516443+99987]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00007FF65C515A1A+97386]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00007FF65C50FF85+74197]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00007FF65C50CA07+60503]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00007FF65C54E62C+329852]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00007FF65C544373+288195]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00007FF65C519BEE+114238]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00007FF65C518DAC+110588]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00007FF65C5197A1+113137]
+	GetHandleVerifier [0x00007FF65C7C39F4+650564]
+	Microsoft::Applications::Events::FromJSON [0x00007FF65C5B99BC+79948]
+	Microsoft::Applications::Events::FromJSON [0x00007FF65C692D4C+969692]
+	Microsoft::Applications::Events::FromJSON [0x00007FF65C68B485+938773]
+	GetHandleVerifier [0x00007FF65C7C29B5+646405]
+	Microsoft::Applications::Events::FromJSON [0x00007FF65C6F2E81+1363217]
+	Microsoft::Applications::Events::FromJSON [0x00007FF65C6EE4F4+1344388]
+	Microsoft::Applications::Events::FromJSON [0x00007FF65C6EE62B+1344699]
+	Microsoft::Applications::Events::FromJSON [0x00007FF65C6E5B21+1309105]
+	BaseThreadInitThunk [0x00007FFD4970257D+29]
+	RtlUserThreadStart [0x00007FFD4A5EAF28+40]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:96)
+	at Common.Utilities.Browsers(Utilities.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functionaltestingsuite-class-skipped -->
           <div class="suite-Functionaltestingsuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -165,82 +217,6 @@
                   <a name="f">
                   </a> <!-- f -->
                   <span class="method-name">f</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="f">
-                  </a> <!-- f -->
-                  <span class="method-name">f</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Functionaltestingsuite-class-passed -->
-          <div class="suite-Functionaltestingsuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Capstone.AutomationPractice6.SignToAmazon</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="f">
-                  </a> <!-- f -->
-                  <span class="method-name">f</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Functionaltestingsuite-class-passed -->
-          <div class="suite-Functionaltestingsuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Capstone.AutomationPractice6.Points</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="f(Ali, abcdef)">
-                  </a> <!-- f(Ali, abcdef) -->
-                  <span class="method-name">f</span>
-                  <span class="parameters">(Ali, abcdef)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="f(Saleem, ghijkl)">
-                  </a> <!-- f(Saleem, ghijkl) -->
-                  <span class="method-name">f</span>
-                  <span class="parameters">(Saleem, ghijkl)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="f(Rabia, mnopqrs)">
-                  </a> <!-- f(Rabia, mnopqrs) -->
-                  <span class="method-name">f</span>
-                  <span class="parameters">(Rabia, mnopqrs)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Functionaltestingsuite-class-passed -->
-          <div class="suite-Functionaltestingsuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Capstone.AutomationPractice6.TestOfVerification6</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="f">
-                  </a> <!-- f -->
-                  <span class="method-name">f</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="signin">
-                  </a> <!-- signin -->
-                  <span class="method-name">signin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -262,9 +238,6 @@
     &lt;parameter name=&quot;Wbsite&quot; value=&quot;https://www.facebook.com&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Capstone.AutomationPractice6.SignToAmazon&quot;/&gt;
-      &lt;class name=&quot;Capstone.AutomationPractice6.TestOfVerification6&quot;/&gt;
-      &lt;class name=&quot;Capstone.AutomationPractice6.Points&quot;/&gt;
       &lt;class name=&quot;Capstone.AutomationPractice6.Property&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Regressiontesting --&gt;
@@ -286,7 +259,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Regressiontesting (4 classes)</span>
+                <span class="test-name">Regressiontesting (1 class)</span>
               </li>
               <li>
                 <span class="test-name">RegressiontestingEdge (1 class)</span>
@@ -315,44 +288,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'f')
-data.setCell(0, 2, 'Capstone.AutomationPractice6.TestOfVerification6')
-data.setCell(0, 3, 6512);
+data.setCell(0, 2, 'Capstone.AutomationPractice6.Property')
+data.setCell(0, 3, 51);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'f')
-data.setCell(1, 2, 'Capstone.AutomationPractice6.SignToAmazon')
-data.setCell(1, 3, 641);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'f')
-data.setCell(2, 2, 'Capstone.AutomationPractice6.Points')
-data.setCell(2, 3, 425);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'f')
-data.setCell(3, 2, 'Capstone.AutomationPractice6.Points')
-data.setCell(3, 3, 391);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'f')
-data.setCell(4, 2, 'Capstone.AutomationPractice6.Points')
-data.setCell(4, 3, 382);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'signin')
-data.setCell(5, 2, 'Capstone.AutomationPractice6.TestOfVerification6')
-data.setCell(5, 3, 380);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'f')
-data.setCell(6, 2, 'Capstone.AutomationPractice6.Property')
-data.setCell(6, 3, 62);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'f')
-data.setCell(7, 2, 'Capstone.AutomationPractice6.Property')
-data.setCell(7, 3, 48);
+data.setCell(1, 2, 'Capstone.AutomationPractice6.Property')
+data.setCell(1, 3, 0);
 window.suiteTableData['Functionaltestingsuite']= { tableData: data, tableDiv: 'times-div-Functionaltestingsuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Functionaltestingsuite">
               </div> <!-- times-div-Functionaltestingsuite -->
             </div> <!-- times-div -->
@@ -378,123 +327,32 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Capstone.AutomationPractice6.SignToAmazon</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Capstone.AutomationPractice6.Property</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Browsers(Chrome, https://www.facebook.com)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Capstone.AutomationPractice6.Property</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Browsers(Edge, https://www.facebook.com)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Capstone.AutomationPractice6.SignToAmazon</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">f</span>
-                <span class="method-start">3330 ms</span>
+                <span class="method-start">2136 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Capstone.AutomationPractice6.Property</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">2141 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">f</span>
-                <span class="method-start">3675 ms</span>
+                <span class="method-start">3240 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">3883 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Capstone.AutomationPractice6.SignToAmazon</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">4097 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Capstone.AutomationPractice6.Points</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">Browsers(Chrome, https://www.facebook.com)</span>
-                <span class="method-start">7809 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">f(Ali, abcdef)</span>
-                <span class="method-start">10173 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">21128 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">Browsers(Chrome, https://www.facebook.com)</span>
-                <span class="method-start">25107 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">f(Saleem, ghijkl)</span>
-                <span class="method-start">27487 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">30202 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">Browsers(Chrome, https://www.facebook.com)</span>
-                <span class="method-start">34081 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">f(Rabia, mnopqrs)</span>
-                <span class="method-start">36431 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">53316 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Capstone.AutomationPractice6.Property</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">Browsers(Chrome, https://www.facebook.com)</span>
-                <span class="method-start">57310 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">f</span>
-                <span class="method-start">59718 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">59931 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Capstone.AutomationPractice6.TestOfVerification6</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">Browsers(Chrome, https://www.facebook.com)</span>
-                <span class="method-start">63685 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">signin</span>
-                <span class="method-start">66111 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">87420 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">Browsers(Chrome, https://www.facebook.com)</span>
-                <span class="method-start">91445 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">f</span>
-                <span class="method-start">93803 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">100527 ms</span>
+                <span class="method-start">3393 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

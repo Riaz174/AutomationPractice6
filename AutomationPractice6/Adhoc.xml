@@ -9,9 +9,9 @@
 	  <parameter name="Wbsite" value="https://www.facebook.com"></parameter>
 	 
 	  	 <classes>
-			  <class name="Capstone.AutomationPractice6.SignToAmazon"></class>
+			  <!--class name="Capstone.AutomationPractice6.SignToAmazon"></class>
 			  <class name="Capstone.AutomationPractice6.TestOfVerification6"></class>
-			  <class name="Capstone.AutomationPractice6.Points"></class>
+			  <class name="Capstone.AutomationPractice6.Points"></class-->
 			  <class name="Capstone.AutomationPractice6.Property"></class>
 		  </classes>
 	  </test>

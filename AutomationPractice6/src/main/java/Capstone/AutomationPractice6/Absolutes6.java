@@ -28,6 +28,7 @@ public class Absolutes6 {
 		Thread.sleep(6000);
 		WebElement forgotpword = driver.findElement(By.xpath("//*[text()='Forgot password?']"));//This is text()function in xpath.
 		forgotpword.click();
+		
 	}
 	
 		

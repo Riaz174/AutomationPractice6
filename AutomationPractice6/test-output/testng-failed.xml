@@ -4,30 +4,17 @@
   <listeners>
     <listener class-name="Capstone.AutomationPractice6.Ilisteners"/>
   </listeners>
-  <test thread-count="5" name="Regressiontesting(failed)" parallel="tests">
-    <parameter name="Wbsite" value="https://www.facebook.com"/>
-    <parameter name="browser" value="Chrome"/>
-    <classes>
-      <class name="Capstone.AutomationPractice6.SignToAmazon">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="Browsers"/>
-          <include name="f"/>
-        </methods>
-      </class> <!-- Capstone.AutomationPractice6.SignToAmazon -->
-    </classes>
-  </test> <!-- Regressiontesting(failed) -->
   <test thread-count="5" name="RegressiontestingEdge(failed)" parallel="tests">
     <parameter name="Wbsite" value="https://www.facebook.com"/>
     <parameter name="browser" value="Edge"/>
     <classes>
-      <class name="Capstone.AutomationPractice6.SignToAmazon">
+      <class name="Capstone.AutomationPractice6.Property">
         <methods>
           <include name="afterMethod"/>
           <include name="Browsers"/>
           <include name="f"/>
         </methods>
-      </class> <!-- Capstone.AutomationPractice6.SignToAmazon -->
+      </class> <!-- Capstone.AutomationPractice6.Property -->
     </classes>
   </test> <!-- RegressiontestingEdge(failed) -->
 </suite> <!-- Failed suite [Functionaltestingsuite] -->
